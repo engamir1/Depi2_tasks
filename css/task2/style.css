@@ -1,8 +1,8 @@
 body {
     background-image: url("src/images/bg.png");
     background-repeat: no-repeat;
-    background-color: aliceblue 0.3;
     background-size: cover;
+
 }
 
 .container {
@@ -33,6 +33,7 @@ body {
     background-position: center center;
     font-size: 50px;
     color: white;
+    opacity: 0.4;
 }
 
 table {
