@@ -1,0 +1,18 @@
+.container {
+    width: 500px;
+    background-image: url('profile.png');
+    height: 500px;
+    overflow: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.title {
+    background-color: hsla(120, 93%, 62%, 0.5);
+    position: absolute;
+    width: 500px;
+
+    height: 500px;
+
+}
