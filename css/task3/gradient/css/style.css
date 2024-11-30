@@ -91,6 +91,7 @@ body {
 }
 .test .content a:hover {
   background-color: #da9047;
+  padding: 10px 30px;
 }
 .image {
   position: absolute;
