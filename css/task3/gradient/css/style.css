@@ -20,7 +20,6 @@ body {
 .logo {
   position: absolute;
   left: -450px;
-
   float: left;
   background: url("../logo.svg") no-repeat left/contain;
   width: 60px;
@@ -49,6 +48,10 @@ body {
 .links li:hover {
   background-color: #da9047;
 
+  margin: 5px 0px;
+}
+.links .active {
+  background-color: #da9047;
   margin: 5px 0px;
 }
 /*  end navbar */
