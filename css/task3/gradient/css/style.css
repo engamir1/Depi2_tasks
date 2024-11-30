@@ -47,7 +47,7 @@ body {
   font-weight: bold;
 }
 .links li:hover {
-  background-color: #124562;
+  background-color: #da9047;
   border-radius: 5px;
   margin: 5px 0px;
 }
@@ -87,10 +87,10 @@ body {
   padding: 10px 20px;
   bottom: 60px;
   left: 250px;
+  transition: 500ms;
 }
 .test .content a:hover {
-  color: rgb(251, 156, 156);
-  background-color: #1b6a98;
+  background-color: #da9047;
 }
 .image {
   position: absolute;
