@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 1180px;
+  box-sizing: border-box;
+  margin: auto;
+  color: #fff;
+}
+.highlight {
+  color: #da9047;
+}
+.cls {
+  clear: both;
+}
+/*  start navbar */
+
+.logo {
+  position: absolute;
+  left: -450px;
+  /* top: 0; */
+  float: left;
+  background: url("../logo.svg") no-repeat left/contain;
+  width: 60px;
+  height: 60px;
+}
+.links {
+  float: right;
+  margin-right: 30px;
+}
+.links ul {
+  margin: 0;
+}
+
+.links li {
+  list-style: none;
+  padding: 20px 10px;
+  float: left;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.links li:hover {
+  background-color: #124562;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+/*  end navbar */
+
+.test {
+  position: relative;
+  height: 600px;
+  width: 700px;
+  background: linear-gradient(to left, #4270a2 70%, rgba(243, 240, 240, 0) 90%);
+  box-sizing: border-box;
+  float: right;
+  top: 0px;
+}
+.test .content h1 {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  width: 400px;
+  font-size: 2rem;
+}
+.test .content p {
+  position: absolute;
+
+  width: 400px;
+  left: 150px;
+  top: 270px;
+  left: 250px;
+}
+.test .content a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  background-color: #124562;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  bottom: 60px;
+  left: 250px;
+}
+.test .content a:hover {
+  color: rgb(251, 156, 156);
+  background-color: #1b6a98;
+}
+.image {
+  position: absolute;
+  background: url("../main.jpg") no-repeat center top/cover;
+  width: 700px;
+  height: 600px;
+  z-index: -1;
+}
