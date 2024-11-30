@@ -20,7 +20,7 @@ body {
 .logo {
   position: absolute;
   left: -450px;
-  /* top: 0; */
+
   float: left;
   background: url("../logo.svg") no-repeat left/contain;
   width: 60px;
@@ -48,7 +48,7 @@ body {
 }
 .links li:hover {
   background-color: #da9047;
-  border-radius: 5px;
+
   margin: 5px 0px;
 }
 /*  end navbar */
@@ -60,7 +60,6 @@ body {
   background: linear-gradient(to left, #4270a2 70%, rgba(243, 240, 240, 0) 90%);
   box-sizing: border-box;
   float: right;
-  top: 0px;
 }
 .test .content h1 {
   position: absolute;
@@ -71,9 +70,7 @@ body {
 }
 .test .content p {
   position: absolute;
-
   width: 400px;
-  left: 150px;
   top: 270px;
   left: 250px;
 }
@@ -81,9 +78,10 @@ body {
   position: absolute;
   text-decoration: none;
   color: white;
+  font-weight: bold;
   background-color: #124562;
-  border-radius: 5px;
   border: none;
+  border-radius: 5px;
   padding: 10px 20px;
   bottom: 60px;
   left: 250px;
